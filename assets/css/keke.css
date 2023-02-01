@@ -11275,15 +11275,15 @@ p {
   display: -ms-flexbox;
   display: flex;
   text-align: center;
-  border: 1px solid #dee2e6;
+  /* border: 1px solid #dee2e6; */
   margin-bottom: 30px;
   overflow: hidden;
   margin: 0 15px 30px;
 }
 
 .blog-card .img-holder {
-  min-width: 350px;
-  max-width: 350px;
+  min-width: 450px;
+  max-width: 450px;
 }
 
 .blog-card .img-holder img {
@@ -11294,7 +11294,9 @@ p {
 }
 
 .blog-card .content-holder {
-  padding: 30px 20px 30px 30px;
+  padding: 30px 40px 30px 40px;
+  margin: 0px 40px;
+  color: white;
 }
 
 .blog-card .content-holder .title {
@@ -11499,7 +11501,7 @@ pre .code {
 }
 
 .footer {
-  background: #17263C;
+  background: grey;
 }
 
 .header {
