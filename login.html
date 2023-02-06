@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with JohnDoe landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Winner Keke</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + JohnDoe main styles -->
+	<link rel="stylesheet" href="assets/css/keke.css">
+    <Link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <style>
+        .container {
+            text-align: center;
+            margin: 30px;
+            padding: 30px;
+            color: white;
+
+        }
+        #text_col {
+            background-color: grey;
+            border-radius: 25px 0px 0px 25px;
+            /* padding: 20px; */
+        
+        }
+        #text_col1 {
+            color: orange;
+        
+        }
+        #text_col1 h2 {
+            padding: 20px;
+            margin: 20px;
+        }
+        #text_col h2 {
+            padding: 20px;
+            margin: 20px;
+        }
+        #text_col h5{
+            color: white;
+            padding: 20px;
+            margin: 20px;
+        }
+        #text_col button{
+            padding: 20px;
+            margin: 20px;
+        }
+        
+.container {
+  padding: 16px;
+  margin: 20px;
+}
+
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+  
+
+    <div class="container">
+        <div class="row">
+          <div id="text_col1" class="col">
+            <h2>Welcome!</h2>
+            
+            <form action="/action_page.php" method="post">
+   
+                  <div class="container">
+                    <label for="uname" style="color: black; text-align: left; justify-content: left; margin: 0px 0px 0px -150px;"><b>Email/Phonenumber</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+                
+                    <label for="psw" style="color: black; text-align: left; justify-content: left; margin: 0px 0px 0px -70px;"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>    
+                    <button type="button" class="btn btn-light btn-lg" style="color: orange;"><b>Login</b></button>
+                    <h5 style="color: orange;">OR</h5>
+                    <button type="button" class="btn btn-light btn-lg" style="color: black;"><b>Continue with google</b></button>
+                  </div>
+                
+                  <div class="container">
+                      <p>By Continuing you agree to play and win<a href="#">Term Of Service</a> and acknowledge you've read our <a href="#">Privacy Policy</a></p>
+                      <p>Do not have an account <a href="sign_up.html">Sign in</a></p>
+                  </div>
+            </form>
+           </div>
+          <div id="text_col" class="col">
+            <h2>Hello !</h2>
+            <h5><b>Enter your Password to get started</b></h5>
+            <button type="button" class="btn btn-light">Log In</button>
+          </div>
+        </div>
+    </div>
+    
+
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Isotope  -->
+    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+    
+    <!-- Google mpas -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
+
+    <!-- JohnDoe js -->
+    <script src="assets/js/keke.js"></script>
+
+</body>
+</html>
