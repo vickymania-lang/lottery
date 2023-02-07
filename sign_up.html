@@ -18,6 +18,8 @@
             margin: 30px;
             padding: 30px;
             color: white;
+            margin: auto;
+            border: 3px solid ;
 
         }
         #text_col {
@@ -92,7 +94,8 @@ span.psw {
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
   
 
-    <div class="container">
+    <div style=" height: 500px;; margin: auto;
+    border: 3px solid;" class="container">
         <div class="row">
             <div id="text_col" class="col">
                 <h2>Welcome Back !</h2>
@@ -101,25 +104,25 @@ span.psw {
               </div>
           <div id="text_col1" class="col">
             <h2>Create account</h2>
+                      
+          <form action="/action_page.php" method="post">
             
-<form action="/action_page.php" method="post">
-   
-    <div class="container">
-      <input type="text" placeholder="Name" name="uname" required>
-      <input type="text" placeholder="Phone number" name="psw" required>    
-      <input type="text" placeholder="Email" name="psw" required>    
-      <input type="password" placeholder="Password" name="psw" required>    
-      <input type="password" placeholder="Confirm Password" name="psw" required>    
-      <button type="button" class="btn btn-light btn-lg" style="color: orange;"><b>Continue</b></button>
-      <h5 style="color: orange;">OR</h5>
-      <button type="button" class="btn btn-light btn-lg" style="color: black;"><b>Continue with google</b></button>
+              <div class="container">
+                <input type="text" placeholder="Name" name="uname" required>
+                <input type="text" placeholder="Phone number" name="psw" required>    
+                <input type="text" placeholder="Email" name="psw" required>    
+                <input type="password" placeholder="Password" name="psw" required>    
+                <input type="password" placeholder="Confirm Password" name="psw" required>    
+                <button type="button" class="btn btn-light btn-lg" style="color: orange;"><b>Continue</b></button>
+                <h5 style="color: orange;">OR</h5>
+                <button type="button" class="btn btn-light btn-lg" style="color: black;"><b>Continue with google</b></button>
+              </div>
+            
+              <div class="container">
+                  <p>Have an account? <a href="login.html">log in</a></p>
+              </div>
+            </form>
     </div>
-  
-    <div class="container">
-        <p>Have an account? <a href="login.html">log in</a></p>
-    </div>
-  </form>
-</div>
        
         </div>
     </div>
